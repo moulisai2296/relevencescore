@@ -1,0 +1,12 @@
+numpy
+pandas
+nltk
+plotly
+sklearn
+matplotlib
+bs4
+WordCloud
+fuzzywuzzy
+scipy
+tqdm
+flask

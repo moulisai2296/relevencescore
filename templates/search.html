@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Relevance</title>
+</head>
+<body>
+<h1> SEARCH RELEVANCE ENGINE </h1>
+<p>Please enter search term to get top 5 relevant items.</p>
+ <form action="{{ url_for("search")}}" method="post">
+<label for="search">Enter Search Term</label>
+<input type="text" id="search" name="search_term" placeholder="search">
+<button type="submit">Enter</button>
+</body>
+</html>
+
+
